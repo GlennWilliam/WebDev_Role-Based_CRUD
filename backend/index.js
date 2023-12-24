@@ -39,6 +39,14 @@ app.use(UserRoute);
 app.use(ProductRoute);
 app.use(AuthRoute);
 
+
+// Run the following code for the first time you run the backend only. This will create the necessary table in your database. After that you can delete the following code. 
+// (async()=>{
+//     await db.sync();
+// })();
+
+// store.sync();
+
 app.listen(process.env.APP_PORT, ()=>{
     console.log("Server Running...");
 });
