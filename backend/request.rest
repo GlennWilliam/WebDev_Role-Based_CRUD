@@ -3,98 +3,11 @@ POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "name": "Glenn William",
-    "email": "glenn@gmail.com",
+    "name": "Admin",
+    "email": "admin@gmail.com",
     "password": "123456",
     "confPassword": "123456",
     "role": "admin"
 }
 
-###
-// Get All User
-GET http://localhost:5000/users
 
-###
-// Get Single User
-GET http://localhost:5000/users/8455702b-b49a-4030-b1f5-e584a69ea55c
-
-###
-// Update User
-PATCH http://localhost:5000/users/8455702b-b49a-4030-b1f5-e584a69ea55c
-Content-Type: application/json
-
-{
-    "name": "Glenn William2",
-    "email": "glenn@gmail.com",
-    "password": "",
-    "confPassword": "",
-    "role": "user"
-}
-
-###
-// Delete User
-DELETE http://localhost:5000/users/8455702b-b49a-4030-b1f5-e584a69ea55c
-
-###
-// Login User
-POST http://localhost:5000/login
-Content-Type: application/json
-
-{
-    "email": "glenn@gmail.com",
-    "password": "123456"
-}
-
-###
-// Login admin 
-POST http://localhost:5000/login
-Content-Type: application/json
-
-{
-    "email": "admin@gmail.com",
-    "password": "123456"
-}
-
-###
-// Obtain information
-GET http://localhost:5000/me
-
-###
-// Delete user
-DELETE http://localhost:5000/logout
-
-###
-// Get All Products
-GET http://localhost:5000/products
-
-###
-// Get Single Products
-GET http://localhost:5000/products/cbec4fed-07f3-4a51-b02e-f08e349cf7c7
-
-
-###
-// Post Data Product
-POST http://localhost:5000/products
-Content-Type: application/json
-
-{
-    "name": "Product 4",
-    "price": 4
-}
-
-###
-// Update Data Product
-PATCH http://localhost:5000/products/cbec4fed-07f3-4a51-b02e-f08e349cf7c7
-Content-Type: application/json
-
-{
-    "name": "Product 1 Updated2",
-    "price": 4
-}
-
-###
-// Delete Data Product
-DELETE http://localhost:5000/products/cbec4fed-07f3-4a51-b02e-f08e349cf7c7
-
-###
-GET http://localhost:5000/products/check-name/Product 9
