@@ -55,7 +55,8 @@ A full-stack role-based web application using Node.js and React, featuring CRUD 
 3. Set up the environment variables. You can use a `.env` file or set them directly.
 4. Run your localhost database
 5. Create a new database (In this code the database name is "auth_db")
-6. Start the backend server: node index 
+6. Start the backend server: node index
+7. You will need to create the first user using postman or REST client. I have provided the request.rest file. This will be your first user with the role admin. 
 
 ### Frontend
 1. Navigate to the frontend directory:
