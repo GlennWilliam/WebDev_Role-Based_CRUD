@@ -1,6 +1,7 @@
-Role-Based CRUD Web Application
+# Role-Based CRUD Web Application
 
 A full-stack role-based web application using Node.js and React, featuring CRUD operations with different access levels for Admins and Users.
+
 ![image](https://github.com/GlennWilliam/WebDev_Role-Based_CRUD/assets/121201497/cd3d0878-360b-49b9-a24b-fb0d693a1cce)
 ![image](https://github.com/GlennWilliam/WebDev_Role-Based_CRUD/assets/121201497/ea6cd511-a678-4ebc-b6d5-c0fdbca0d748)
 ![image](https://github.com/GlennWilliam/WebDev_Role-Based_CRUD/assets/121201497/71e0efae-bf0a-43c5-bd5f-8810891ead8b)
